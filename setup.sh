@@ -1,5 +1,4 @@
 set -e
-git clone https://github.com/vkhazin/revize-ubuntu-nginx-reverse-proxy.git
 cd ./revize-ubuntu-nginx-reverse-proxy
 sudo apt-get update
 sudo apt-get install nginx -y
