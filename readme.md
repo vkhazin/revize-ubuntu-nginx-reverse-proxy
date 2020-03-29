@@ -8,6 +8,7 @@
 * Install nginx: `sudo apt-get update && sudo apt-get install nginx -y`
 * Enable nginx service: `sudo systemctl enable nginx`
 * Disable the default virtual host: `sudo unlink /etc/nginx/sites-enabled/default`
-* Create reverse proxy configuration: `sudo cat ./google.config | sudo tee -a /etc/nginx/sites-available/google-reverse-proxy.config`
-* Link the created configuration: `sudo ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf`
+* Create reverse proxy configuration: `sudo cat ./google.conf | sudo tee /etc/nginx/sites-available/google-reverse-proxy.conf`
+* Link the created configuration: 
+`sudo ln -s /etc/nginx/sites-available/google-reverse-proxy.conf /etc/nginx/sites-enabled/google-reverse-proxy.conf`
 * Reload service: `sudo systemctl reload nginx`
