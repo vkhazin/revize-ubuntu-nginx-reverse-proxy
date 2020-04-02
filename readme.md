@@ -12,3 +12,11 @@
 ## References
 
 * https://serversforhackers.com/c/tcp-load-balancing-with-nginx-ssl-pass-thru
+
+
+## Cache & Protect Setup
+
+* 18.190.62.196 origin web server
+* revize.icssolutions.ca & default web sites
+* CloudFront: revize.icssolutions.ca CName to CloudFront Dns
+* CloudFront to origin-revize.icssolutions.ca
