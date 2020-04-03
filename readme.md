@@ -16,7 +16,11 @@
 
 ## Cache & Protect Setup
 
-* 18.190.62.196 origin web server
-* revize.icssolutions.ca & default web sites
-* CloudFront: revize.icssolutions.ca CName to CloudFront Dns
-* CloudFront to origin-revize.icssolutions.ca
+* 18.190.62.196 origin web server: origin-revize.icssolutions.ca
+* Origin Web Server Sites: revize.icssolutions.ca & default
+* CloudFront: deqr9qb8zz3i7.cloudfront.net
+* 3.14.17.219 nginx reverse proxy: revize.icssolutions.ca
+
+## Static hosting
+
+* Problem: domain name can be A host only for the root and for `www`
