@@ -18,4 +18,4 @@ echo "include /etc/nginx/tcpconf.d/*;" | sudo tee -a /etc/nginx/nginx.conf
 
 # Reload nginx configuration
 sudo systemctl reload nginx
-echo "Open your browser to https://$(curl -s http://ipinfo.io/ip)"
+echo "Setup completed!"
