@@ -8,6 +8,10 @@
 * ALB + WAF to provide load balancing and DDoS protection to IIS web-servers
 * IIS web-servers to provide familiar administrative environment for hosting
 
+## Overview
+
+![](./assets/emergency-measures.jpg)
+
 ## Setup
 
 * Configure a security group to allow tcp:80 and tcp:443 traffic to associate with the ALB/NLB/EC2
