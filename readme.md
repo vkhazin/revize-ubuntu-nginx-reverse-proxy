@@ -24,3 +24,11 @@
 ## Static hosting
 
 * Problem: domain name can be A host only for the root and for `www`
+
+## Multi-layer protection
+
+* NLB with an Elastic IP
+* Nginx tcp proxy mode
+* Nginx conditional proxy based on a host name
+* ALB with SNI certificate
+* IIS Web Server, multi-domain, http-only
